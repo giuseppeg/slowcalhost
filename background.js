@@ -20,7 +20,7 @@ async function run(tab) {
 }
 
 chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
-  if (changeInfo.status !== "complete" || !/\/localhost[:/]/i.test(tab.url)) {
+  if (changeInfo.status !== "loading" || !/\/localhost[:/]/i.test(tab.url)) {
     return;
   }
   run(tab);

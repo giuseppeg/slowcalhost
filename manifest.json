@@ -1,6 +1,6 @@
 {
   "name": "slowcalhost",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Slows down localhost so that you build faster web sites and apps.",
   "homepage_url": "https://github.com/giuseppeg/slowcalhost",
   "manifest_version": 2,
