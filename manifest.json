@@ -1,0 +1,16 @@
+{
+  "name": "slowcalhost",
+  "version": "0.1.0",
+  "description": "Slows down localhost so that you build faster web sites and apps.",
+  "homepage_url": "https://github.com/giuseppeg/slowcalhost",
+  "manifest_version": 2,
+  "minimum_chrome_version": "62",
+  "icons": {
+    "128": "icon.png"
+  },
+  "permissions": ["tabs", "debugger"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
